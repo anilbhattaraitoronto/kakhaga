@@ -195,6 +195,12 @@ p{
     padding: 3px 0;
     font-size: 1em;
 }
+.about-section > div{
+    padding: 5px;
+}
+.about-section > div >p{
+    padding: 10px 0;
+}
 footer{
     padding: 10px 0;
     background: var(--theme-blue);
