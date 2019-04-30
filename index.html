@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A web application to learn Nepali language from beginner to advanced level. Devnagari " />
+    <meta name="keywords" content="Nepali, nepali language, devnagari, language learning, nepal" />
+    <link rel="stylesheet" href="main.css">
+    <title>क ख ग - Learn Nepali</title>
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="masthead">Learn Nepali</h1>
+    </header>
+    <!--Dynamic Section-->
+    <div class="wrapper">
+        <!--Landing Section Begins-->
+        <main id="landing"  class="main-section">
+            <section id="learn-nepali-description">
+                <p>Why Learn Nepali?</p>
+                <p>NEPALI: A language spoken by over <span><em>33 million</em> </span>  people on earth.</p>
+            </section>
+            <section id="start-button-container">
+                <section id="start-button">
+                    Start Learning
+                </section>
+            </section>
+        </main>
+        <!--Landing Section Ends-->
+        <!--Lessons Section Begins-->
+        <main id="lessons" class="main-section">
+            <ul class="main-nav">
+                <!-- <li id="home-link">Home</li> -->
+                <li class="main-link" onclick = "currentSection('.lesson-level', '.main-link', ' active', 0)">Beginner</li>
+                <li class="main-link" onclick = "currentSection('.lesson-level', '.main-link', ' active', 1)">Intermediate</li>
+                <li class="main-link" onclick = "currentSection('.lesson-level', '.main-link', ' active', 2)">Advanced</li>
+                <li class="main-link" onclick = "currentSection('.lesson-level', '.main-link', ' active', 3)">About</li>
+            </ul>
+            <!--Lesson Levels Begins-->
+                <section id="beginner-level" class="lesson-level">
+                    <h2 class="lesson-level-title">Beginner</h2>
+                    <ul id="beginner-level-nav">
+                        <li class="beginner-nav-link" onclick="currentSection('.beginner-lesson', '.beginner-nav-link', ' beginner-active-link', 0)" >Vowels</li>
+                        <li class="beginner-nav-link" onclick="currentSection('.beginner-lesson', '.beginner-nav-link', ' beginner-active-link', 1)" >Roots</li>
+                        <li class="beginner-nav-link" onclick="currentSection('.beginner-lesson', '.beginner-nav-link', ' beginner-active-link', 2)" >Syllables</li>
+                        <li class="beginner-nav-link" onclick="currentSection('.beginner-lesson', '.beginner-nav-link', ' beginner-active-link', 3)" >Extended Syllables</li>
+                    </ul>
+                    <div class="beginner-lesson">
+                        <h3 class="lesson-title">Vowels</h3>
+                        <div class="nepali"></div>
+                        <div class="english"></div>
+                        <div class="picture"></div>
+                        <div class="sound">
+                            <audio src=""></audio>
+                        </div>
+                    </div>
+                    <div class="beginner-lesson">
+                        <h3 class="lesson-title">Roots</h3>
+                        <div class="nepali"></div>
+                        <div class="english"></div>
+                        <div class="picture"></div>
+                        <div class="sound">
+                            <audio src=""></audio>
+                        </div>
+                    </div>
+                    <div class="beginner-lesson">
+                        <h3 class="lesson-title">Syllables</h3>
+                        <div class="nepali"></div>
+                        <div class="english"></div>
+                        <div class="picture"></div>
+                        <div class="sound">
+                            <audio src=""></audio>
+                        </div>
+                    </div>
+                    <div class="beginner-lesson">
+                        <h3 class="lesson-title">Extended Syllables</h3>
+                        <div class="nepali"></div>
+                        <div class="english"></div>
+                        <div class="picture"></div>
+                        <div class="sound">
+                            <audio src=""></audio>
+                        </div>
+                    </div>
+                </section>
+                <section id="intermediate-level" class="lesson-level">
+                    <h2 class="lesson-level-title">Intermediate</h2>
+                    <ul id="intermediate-level-nav">
+                        <li class="intermediate-nav-link" onclick="currentSection('.intermediate-lesson', '.intermediate-nav-link', ' intermediate-active-link', 0)">Nouns</li>
+                        <li class="intermediate-nav-link" onclick="currentSection('.intermediate-lesson', '.intermediate-nav-link', ' intermediate-active-link', 1)">Verbs</li>
+                        <li class="intermediate-nav-link" onclick="currentSection('.intermediate-lesson', '.intermediate-nav-link', ' intermediate-active-link', 2)">Adjectives</li>
+                        <li class="intermediate-nav-link" onclick="currentSection('.intermediate-lesson', '.intermediate-nav-link', ' intermediate-active-link', 3)">Adverbs</li>
+                    </ul>
+                    <div class="intermediate-lesson">
+                        <h3 class="lesson-title">Nouns</h3>
+                        <div class="nepali"></div>
+                        <div class="english"></div>
+                        <div class="picture"></div>
+                        <div class="sound">
+                            <audio src=""></audio>
+                        </div>
+                    </div>
+                    <div class="intermediate-lesson">
+                        <h3 class="lesson-title">Verbs</h3>
+                        <div class="nepali"></div>
+                        <div class="english"></div>
+                        <div class="picture"></div>
+                        <div class="sound">
+                            <audio src=""></audio>
+                        </div>
+                    </div>
+                    <div class="intermediate-lesson">
+                        <h3 class="lesson-title">Adjectives</h3>
+                        <div class="nepali"></div>
+                        <div class="english"></div>
+                        <div class="picture"></div>
+                        <div class="sound">
+                            <audio src=""></audio>
+                        </div>
+                    </div>
+                    <div class="intermediate-lesson">
+                        <h3 class="lesson-title">Adverbs</h3>
+                        <div class="nepali"></div>
+                        <div class="english"></div>
+                        <div class="picture"></div>
+                        <div class="sound">
+                            <audio src=""></audio>
+                        </div>
+                    </div>
+            
+                </section>
+                <section id="advanced-level" class="lesson-level">
+                    <h2 class="lesson-level-title">Advanced</h2>
+                    <ul id="advanced-level-nav">
+                        <li class="advanced-nav-link" onclick="currentSection('.advanced-lesson', '.advanced-nav-link', ' advanced-active-link', 0)">Sentences</li>
+                        <li class="advanced-nav-link" onclick="currentSection('.advanced-lesson', '.advanced-nav-link', ' advanced-active-link', 1)">Present</li>
+                        <li class="advanced-nav-link" onclick="currentSection('.advanced-lesson', '.advanced-nav-link', ' advanced-active-link', 2)">Past</li>
+                        <li class="advanced-nav-link" onclick="currentSection('.advanced-lesson', '.advanced-nav-link', ' advanced-active-link', 3)">Future</li>
+                    </ul>
+                    <div class="advanced-lesson">
+                        <h3 class="lesson-title">Sentences</h3>
+                        <div class="nepali"></div>
+                        <div class="english"></div>
+                        <div class="picture"></div>
+                        <div class="sound">
+                            <audio src=""></audio>
+                        </div>
+                    </div>
+                    <div class="advanced-lesson">
+                        <h3 class="lesson-title">Present</h3>
+                        <div class="nepali"></div>
+                        <div class="english"></div>
+                        <div class="picture"></div>
+                        <div class="sound">
+                            <audio src=""></audio>
+                        </div>
+                    </div>
+                    <div class="advanced-lesson">
+                        <h3 class="lesson-title">Past</h3>
+                        <div class="nepali"></div>
+                        <div class="english"></div>
+                        <div class="picture"></div>
+                        <div class="sound">
+                            <audio src=""></audio>
+                        </div>
+                    </div>
+                    <div class="advanced-lesson">
+                        <h3 class="lesson-title">Future</h3>
+                        <div class="nepali"></div>
+                        <div class="english"></div>
+                        <div class="picture"></div>
+                        <div class="sound">
+                            <audio src=""></audio>
+                        </div>
+                    </div>
+                </section>
+                <section id="about-level" class="lesson-level">
+                    <h2 class="lesson-level-title">About Nepali Language</h2>
+                    <ul id="about-nav">
+                        <li class="about-nav-link" onclick="currentSection('.about-section', '.about-nav-link', ' about-active-link', 0)">Letters</li>
+                        <li class="about-nav-link" onclick="currentSection('.about-section', '.about-nav-link', ' about-active-link', 1)">Words</li>
+                        <li class="about-nav-link" onclick="currentSection('.about-section', '.about-nav-link', ' about-active-link', 2)">Sentences</li>
+                    </ul>
+                    <div class="about-section">
+                        <h3 class="lesson-title">Letters</h3>
+                        <div class="about-text"></div>
+                    </div>
+                    <div class="about-section">
+                        <h3 class="lesson-title">Words</h3>
+                        <div class="about-text"></div>
+                    </div>
+                    <div class="about-section">
+                        <h3 class="lesson-title">Sentences</h3>
+                        <div class="about-text"></div>
+                    </div>
+                </section>
+            <!--Lesson Levels End-->
+        </main>
+        <!--Lessons Section Ends-->
+    </div>
+    <!--End of Dynamic Section-->
+
+    <footer>
+        <p>&copy; Anil Bhattarai, 2019</p>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
