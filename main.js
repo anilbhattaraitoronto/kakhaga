@@ -51,25 +51,25 @@ const vowels = [
     {
         nepali: 'इ',
         english: 'i',
-        picture: 'pictures/vowels/inar.png',
+        picture: 'pictures/vowels/ita.png',
         sound: 'i.mp3'
     },
     {
         nepali: 'ई',
         english: 'ee',
-        picture: 'pictures/vowels/inar.png',
+        picture: 'pictures/vowels/eenar.png',
         sound: 'i.mp3'
     },
     {
         nepali: 'उ',
         english: 'u',
-        picture: 'pictures/vowels/inar.png',
+        picture: 'pictures/vowels/unt.png',
         sound: 'u.mp3'
     },
     {
         nepali: 'ऊ',
         english: 'oo',
-        picture: 'pictures/vowels/inar.png',
+        picture: 'pictures/vowels/oon.png',
         sound: 'oo.mp3'
     },
     {
@@ -81,7 +81,7 @@ const vowels = [
     {
         nepali: 'ऐ',
         english: 'aih',
-        picture: 'pictures/vowels/inar.png',
+        picture: 'pictures/vowels/aihna.svg',
         sound: 'aih.mp3'
     },
     {
@@ -99,7 +99,7 @@ const vowels = [
     {
         nepali: 'अं',
         english: 'ahm',
-        picture: 'pictures/vowels/inar.png',
+        picture: 'pictures/vowels/anka.png',
         sound: 'ahm.mp3'
     },
     {
