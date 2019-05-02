@@ -75,7 +75,7 @@ const vowels = [
     {
         nepali: 'ए',
         english: 'eh',
-        picture: 'pictures/vowels/inar.png',
+        picture: 'pictures/vowels/ehk.png',
         sound: 'eh.mp3'
     },
     {
@@ -87,7 +87,7 @@ const vowels = [
     {
         nepali: 'ओ',
         english: 'o',
-        picture: 'pictures/vowels/inar.png',
+        picture: 'pictures/vowels/okhar.png',
         sound: 'o.mp3'
     },
     {
