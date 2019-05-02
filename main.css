@@ -6,7 +6,7 @@
     --theme-blue: rgb(25, 25, 136);
     --theme-red: rgb(187, 11, 11);
     --theme-color-black: rgb(31, 25, 25);
-    --theme-color-white: rgb(224, 214, 214);
+    --theme-color-white: white;
 }
 p{
     padding: 8px 0;
@@ -20,7 +20,7 @@ p{
 }
 .masthead{
     text-align: center;
-    background: var(--theme-color-white);
+    background: white;
     color: var(--theme-red);
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -119,6 +119,7 @@ p{
     justify-content: center;
     color: var(--theme-color-white);
     list-style-type: none;
+    background: white;
 }
 .main-nav .main-link{
     text-transform: uppercase;
@@ -184,7 +185,7 @@ p{
 .beginner-lesson, .intermediate-lesson, .advanced-lesson, .about-section {
     background: var(--theme-color-white);
     height: 350px;
-    overflow: auto;
+    /* overflow: auto; */
     width: 100%;
     margin: 10px auto;
 }
@@ -195,11 +196,15 @@ p{
     padding: 3px 0;
     font-size: 1em;
 }
-.about-section > div{
-    padding: 5px;
-}
+
 .about-section > div >p{
     padding: 10px 0;
+}
+.about-text{
+    height: 300px;
+    overflow:auto;
+    background: white;
+    padding: 10px;
 }
 footer{
     padding: 10px 0;
@@ -207,4 +212,16 @@ footer{
     color: var(--theme-color-white);
     text-align: center;
 
+}
+@media only screen and (min-width: 550px){
+    #landing, #lessons{
+        width: 100%;
+        max-width: 700px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    *{
+        font-size: 103%;
+    }
 }
