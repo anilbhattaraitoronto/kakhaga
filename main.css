@@ -64,12 +64,13 @@ p{
     text-align: center;
     background: var(--theme-red);
     color: var(--theme-color-white);
-    padding: 20px;
+    padding: 10px;
+    margin-top: -30px;
+    margin-bottom: 10px;
     width: 200px;
-    height: 250px;
+    height: 200px;
     border-radius: 8px;
-    margin-top: 30px;
-    box-shadow: 2px -2px 1px 1px gray;
+    box-shadow: 1px -1px 1px 1px gray;
 }
 #learn-nepali-description span{
   color: lightgoldenrodyellow;
