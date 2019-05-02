@@ -17,15 +17,16 @@
     <div class="wrapper">
         <!--Landing Section Begins-->
         <main id="landing"  class="main-section">
-            <section id="learn-nepali-description">
-                <p>Why Learn Nepali?</p>
-                <p>NEPALI: A language spoken by over <span><em>33 million</em> </span>  people on earth.</p>
-            </section>
             <section id="start-button-container">
                 <section id="start-button">
                     Start Learning
                 </section>
             </section>
+            <section id="learn-nepali-description">
+                <p>Why Learn Nepali?</p>
+                <p>NEPALI: A language spoken by over <span><em>33 million</em> </span>  people on earth.</p>
+            </section>
+           
         </main>
         <!--Landing Section Ends-->
         <!--Lessons Section Begins-->
@@ -44,16 +45,21 @@
                         <li class="beginner-nav-link" onclick="currentSection('.beginner-lesson', '.beginner-nav-link', ' beginner-active-link', 0)" >Vowels</li>
                         <li class="beginner-nav-link" onclick="currentSection('.beginner-lesson', '.beginner-nav-link', ' beginner-active-link', 1)" >Roots</li>
                         <li class="beginner-nav-link" onclick="currentSection('.beginner-lesson', '.beginner-nav-link', ' beginner-active-link', 2)" >Syllables</li>
-                        <li class="beginner-nav-link" onclick="currentSection('.beginner-lesson', '.beginner-nav-link', ' beginner-active-link', 3)" >Extended Syllables</li>
+                        <li class="beginner-nav-link" onclick="currentSection('.beginner-lesson', '.beginner-nav-link', ' beginner-active-link', 3)" >Compounds</li>
                     </ul>
                     <div class="beginner-lesson">
                         <h3 class="lesson-title">Vowels</h3>
-                        <div class="nepali"></div>
-                        <div class="english"></div>
-                        <div class="picture"></div>
-                        <div class="sound">
-                            <audio src=""></audio>
-                        </div>
+                        <section class="vowel-lesson">
+                            <div class="nepali"></div>
+                            <div class="english"></div>
+                            <div class="picture"></div>
+                            <div class="sound">
+                                <!-- <audio src=""></audio> -->
+                            </div>
+                            <button class="prev">Prev</button>
+                            <button class="next">Next</button>
+                        </section>
+
                     </div>
                     <div class="beginner-lesson">
                         <h3 class="lesson-title">Roots</h3>
@@ -74,7 +80,7 @@
                         </div>
                     </div>
                     <div class="beginner-lesson">
-                        <h3 class="lesson-title">Extended Syllables</h3>
+                        <h3 class="lesson-title">Compounds</h3>
                         <div class="nepali"></div>
                         <div class="english"></div>
                         <div class="picture"></div>
