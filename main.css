@@ -22,7 +22,7 @@ p{
 .masthead{
     text-align: center;
     background: white;
-    color: var(--theme-red);
+    color: var(--theme-blue);
     text-transform: uppercase;
     letter-spacing: 6px;
     word-spacing: 20px;
@@ -141,7 +141,7 @@ p{
     margin: 0 1px;
     cursor: pointer;
     /* border: 1px solid var(--theme-red); */
-    color: var(--theme-red);
+    color: var(--theme-blue);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     box-shadow: 1px 0 1px 1px lightgray;
@@ -181,7 +181,7 @@ p{
     cursor: pointer;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    box-shadow: 2px 0 2px 2px lightgray;
+    box-shadow: 1px 0 1px 1px lightgray;
 }
 /*
 .beginner-nav-link:hover, .intermediate-nav-link:hover, .advanced-nav-link:hover, .about-nav-link:hover{
@@ -281,9 +281,20 @@ footer{
     color: white;
 }
 .english{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid var(--theme-red);
     position: absolute;
     top: 5px;
     left: 5px;
+    font-size: 1.6em;
+    color: var(--theme-red);
+    
 }
 .picture{
     position: absolute;
