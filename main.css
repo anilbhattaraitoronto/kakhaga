@@ -14,6 +14,7 @@ p{
 .main-header{
     padding: 20px 0;
     background: var(--theme-blue);
+    background-image: linear-gradient( rgb(231, 211, 211) 5%, rgb(184, 184, 207) 90%, rgb(227, 241, 227) 99%)
    
     /* border-bottom: 1px solid var(--theme-red); */
     /* margin: 20px auto; */
@@ -122,8 +123,8 @@ p{
     animation: dropLessons 2000ms ease-in-out;
 }
 @keyframes dropLessons{
-    from {top: -600px}
-    to {top: 0px;}
+    from {transform: scale(0.1); opacity: 0.1}
+    to {transform: scale(1); opacity: 1;}
 }
 
 .main-nav{
@@ -135,19 +136,19 @@ p{
 }
 .main-nav .main-link{
     text-transform: uppercase;
-    background: var(--theme-red);
     font-size: .7em;
     padding: 5px 8px;
     margin: 0 1px;
     cursor: pointer;
-    /* border-top-left-radius: 5px; */
+    border: 1px solid var(--theme-red);
+    color: var(--theme-red);
     border-top-right-radius: 5px;
     box-shadow: 1px 0 1px 1px gray;
     /* letter-spacing: 1px; */
 }
-.main-nav .main-link:hover{
-    color: bisque;
-}
+/* .main-nav .main-link:hover{
+    color: blue;
+} */
 /* .main-nav .main-link:hover{
     background: var(--theme-blue);
 } */
