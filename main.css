@@ -209,7 +209,7 @@ p{
 .lesson-title{
     text-align: center;
     color: var(--theme-color-white);
-    background:var(--theme-blue);
+    background:var(--theme-red);
     padding: 3px 0;
     font-size: 1em;
 }
