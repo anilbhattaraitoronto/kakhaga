@@ -39,26 +39,74 @@ const vowels = [
     {
         nepali: 'अ',
         english: 'a',
-        picture: 'pictures/aduwa.png',
+        picture: 'pictures/vowels/aduwa.png',
         sound: 'a.mp3'
     },
     {
         nepali: 'आ',
         english: 'aa',
-        picture: 'pictures/aalu.svg',
+        picture: 'pictures/vowels/aalu.svg',
         sound: 'aa.mp3'
     },
     {
         nepali: 'इ',
         english: 'i',
-        picture: 'pictures/inar.png',
+        picture: 'pictures/vowels/inar.png',
         sound: 'i.mp3'
     },
     {
         nepali: 'ई',
         english: 'ee',
-        picture: 'pictures/inar.png',
+        picture: 'pictures/vowels/inar.png',
         sound: 'i.mp3'
+    },
+    {
+        nepali: 'उ',
+        english: 'u',
+        picture: 'pictures/vowels/inar.png',
+        sound: 'u.mp3'
+    },
+    {
+        nepali: 'ऊ',
+        english: 'oo',
+        picture: 'pictures/vowels/inar.png',
+        sound: 'oo.mp3'
+    },
+    {
+        nepali: 'ए',
+        english: 'eh',
+        picture: 'pictures/vowels/inar.png',
+        sound: 'eh.mp3'
+    },
+    {
+        nepali: 'ऐ',
+        english: 'aih',
+        picture: 'pictures/vowels/inar.png',
+        sound: 'aih.mp3'
+    },
+    {
+        nepali: 'ओ',
+        english: 'o',
+        picture: 'pictures/vowels/inar.png',
+        sound: 'o.mp3'
+    },
+    {
+        nepali: 'औ',
+        english: 'au',
+        picture: 'pictures/vowels/aujar.png',
+        sound: 'au.mp3'
+    },
+    {
+        nepali: 'अं',
+        english: 'ahm',
+        picture: 'pictures/vowels/inar.png',
+        sound: 'ahm.mp3'
+    },
+    {
+        nepali: 'अ:',
+        english: 'aha',
+        picture: 'pictures/vowels/inar.png',
+        sound: 'aha.mp3'
     },
 ]
 function showItem(items, lessonClass) {
