@@ -106,12 +106,18 @@ p{
 
 #lessons{
     display: none;
+    position: relative;
     transition: display 1s linear ease-in-out;
     width: 100%;
     max-width: 350px;
     margin: auto;
     background: var(--theme-color-white);
     box-shadow: 0 0 2px 2px gray;
+    animation: dropLessons 2000ms ease-in-out;
+}
+@keyframes dropLessons{
+    from {top: -600px}
+    to {top: 0px;}
 }
 
 .main-nav{
@@ -229,10 +235,9 @@ footer{
     }
 }
 
-
 /* Lesson Boxes Styles now */
 
-.vowel-lesson{
+.vowel-lesson, .root-lesson, .syllable-lesson, .compound-lesson, .noun-lesson, .verb-lesson, .adjective-lesson, .adverb-lesson, .sentence-lesson, .present-lesson, .past-lesson, .future-lesson{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -242,7 +247,13 @@ footer{
     width: 300px;
     margin: auto;
     box-shadow: 0 0 3px 3px gray;
+    animation: scaleLessons 2000ms ease-in-out;
 }
+@keyframes scaleLessons {
+    from{transform: scale(.5);}
+    to{transform: scale(1)}
+}
+
 .nepali{
     display: flex;
     justify-content: center;

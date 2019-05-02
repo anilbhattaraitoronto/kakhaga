@@ -55,18 +55,18 @@ const vowels = [
         sound: 'i.mp3'
     },
 ]
-function showItem(lessonClass) {
+function showItem(items, lessonClass) {
     let nepali = document.querySelector(lessonClass + '.nepali');
     let english = document.querySelector(lessonClass + '.english');
     let sound = document.querySelector(lessonClass + '.sound');
     let picture = document.querySelector(lessonClass + '.picture');
 
-    nepali.textContent = vowels[itemIndex].nepali;
-    english.textContent = vowels[itemIndex].english;
-    picture.textContent = vowels[itemIndex].picture;
-    sound.textContent = vowels[itemIndex].sound;
+    nepali.textContent = items[itemIndex].nepali;
+    english.textContent = items[itemIndex].english;
+    picture.textContent = items[itemIndex].picture;
+    sound.textContent = items[itemIndex].sound;
 }
-showItem('.vowel-lesson ');
+showItem(vowels, '.vowel-lesson ');
 
 let prevVowelButton = document.querySelector('.prev');
 let nextVowelButton = document.querySelector('.next');
@@ -77,7 +77,7 @@ nextVowelButton.addEventListener('click', () => {
     if (itemIndex === length) {
         itemIndex = 0
     }
-    showItem('.vowel-lesson ');
+    showItem(vowels, '.vowel-lesson ');
 })
 prevVowelButton.addEventListener('click', () => {
     let length = vowels.length;
@@ -85,5 +85,5 @@ prevVowelButton.addEventListener('click', () => {
     if (itemIndex < 0) {
         itemIndex = length - 1;
     }
-    showItem('.vowel-lesson ');
+    showItem(vowels, '.vowel-lesson ');
 })
