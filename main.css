@@ -140,10 +140,11 @@ p{
     padding: 5px 8px;
     margin: 0 1px;
     cursor: pointer;
-    border: 1px solid var(--theme-red);
+    /* border: 1px solid var(--theme-red); */
     color: var(--theme-red);
+    border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    box-shadow: 1px 0 1px 1px gray;
+    box-shadow: 1px 0 1px 1px lightgray;
     /* letter-spacing: 1px; */
 }
 /* .main-nav .main-link:hover{
@@ -169,24 +170,27 @@ p{
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    color: var(--theme-color-white);
+    color: var(--theme-blue);
     list-style-type: none;
 }
 #beginner-level-nav .beginner-nav-link, #intermediate-level-nav .intermediate-nav-link, #advanced-level-nav .advanced-nav-link, #about-nav .about-nav-link{
-    background: var(--theme-blue);
+    /* border: 1px solid var(--theme-blue); */
     padding: 5px 8px;
     margin: 0 1px;
     font-size: .8em;
     cursor: pointer;
-    /* border-top-left-radius: 5px; */
+    border-top-left-radius: 3px;
     border-top-right-radius: 3px;
-    box-shadow: 1px 0 1px 1px gray;
+    box-shadow: 2px 0 2px 2px lightgray;
 }
+/*
 .beginner-nav-link:hover, .intermediate-nav-link:hover, .advanced-nav-link:hover, .about-nav-link:hover{
     color: rgb(224, 224, 64);
 }
+*/
 #beginner-level-nav .beginner-active-link, #intermediate-level-nav .intermediate-active-link, #advanced-level-nav .advanced-active-link, #about-nav .about-active-link{
-    background: var(--theme-red);
+    color: var(--theme-color-white);
+    background: var(--theme-blue);
 }
 
 #beginner-level, #intermediate-level, #advanced-level, #about-level{
@@ -254,7 +258,7 @@ footer{
     width: 300px;
     margin: 12px auto;
     border-radius: 8px;
-    box-shadow: 0 0 3px 3px gray;
+    box-shadow: 0 0 2px 2px lightgray;
     animation: scaleLessons 2000ms ease-in-out;
 }
 @keyframes scaleLessons {
@@ -308,9 +312,11 @@ footer{
 .prev, .next{
     background: var(--theme-red);
     color: white;
-    padding: 5px 12px;
+    padding: 3px 12px;
     border: 1px solid var(--theme-blue);
+    border-radius: 3px;
     cursor: pointer;
+    transition: background 150ms ease-in-out;
 }
 .prev:hover, .next:hover{
     background: white;
