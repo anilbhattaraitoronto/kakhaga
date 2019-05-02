@@ -39,19 +39,25 @@ const vowels = [
     {
         nepali: 'अ',
         english: 'a',
-        picture: 'a.png',
+        picture: 'pictures/aduwa.png',
         sound: 'a.mp3'
     },
     {
         nepali: 'आ',
         english: 'aa',
-        picture: 'aa.png',
+        picture: 'pictures/aalu.svg',
         sound: 'aa.mp3'
     },
     {
         nepali: 'इ',
         english: 'i',
-        picture: 'i.png',
+        picture: 'pictures/inar.png',
+        sound: 'i.mp3'
+    },
+    {
+        nepali: 'ई',
+        english: 'ee',
+        picture: 'pictures/inar.png',
         sound: 'i.mp3'
     },
 ]
@@ -63,7 +69,7 @@ function showItem(items, lessonClass) {
 
     nepali.textContent = items[itemIndex].nepali;
     english.textContent = items[itemIndex].english;
-    picture.textContent = items[itemIndex].picture;
+    picture.src = items[itemIndex].picture;
     sound.textContent = items[itemIndex].sound;
 }
 showItem(vowels, '.vowel-lesson ');
