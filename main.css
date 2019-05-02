@@ -35,6 +35,11 @@ p{
     from {transform: scale(.7)}
     to {transform: scale(1)}
 }
+.masthead-image{
+    width: 100%;
+    height: 30px;
+    width: 30px;
+}
 .wrapper{
     width: 95%;
     margin: auto;
@@ -245,7 +250,8 @@ footer{
     position: relative;
     height: 300px;
     width: 300px;
-    margin: auto;
+    margin: 12px auto;
+    border-radius: 8px;
     box-shadow: 0 0 3px 3px gray;
     animation: scaleLessons 2000ms ease-in-out;
 }
