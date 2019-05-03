@@ -261,6 +261,9 @@ footer{
 }
 
 @media only screen and (max-width: 450px){
+    #lessons{
+        box-shadow: 0 0 0 0;
+    }
     *{
         font-size: 102%;
     }
