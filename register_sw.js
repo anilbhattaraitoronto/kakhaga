@@ -10,6 +10,4 @@ if ('serviceWorker' in navigator) {
         });
 } else {
     console.log("Service Workers not supported");
-
-
 }
