@@ -6,6 +6,7 @@ let cachedFiles = [
     './main.css',
     './main.js',
     './register_sw.js',
+    './sw.js',
     './pictures/nepal_flag.svg',
     './pictures/nepal_flag.png',
     './pictures/vowels/aalu.svg',
