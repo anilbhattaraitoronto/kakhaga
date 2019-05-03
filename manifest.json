@@ -16,5 +16,5 @@
     "theme_color": "#020088",
     "background_color": "white",
     "display": "standalone",
-    "start_url": "/kakhaga/index.html"
+    "start_url": "kakhaga/index.html"
 }
