@@ -168,9 +168,9 @@ p{
 /* .main-nav .main-link:hover{
     color: blue;
 } */
-/* .main-nav .main-link:hover{
-    background: var(--theme-blue);
-} */
+ .main-link:hover{
+    color: var(--theme-red);
+}
 .main-nav .active{
     background: var(--theme-blue);
     color: var(--theme-color-white);
@@ -202,11 +202,11 @@ p{
     border-right: 1px solid var(--theme-blue);
     /* box-shadow: 0px 0 0px 1px lightgray; */
 }
-/*
+
 .beginner-nav-link:hover, .intermediate-nav-link:hover, .advanced-nav-link:hover, .about-nav-link:hover{
-    color: rgb(224, 224, 64);
+    color: var(--theme-red);
 }
-*/
+
 #beginner-level-nav .beginner-active-link, #intermediate-level-nav .intermediate-active-link, #advanced-level-nav .advanced-active-link, #about-nav .about-active-link{
     color: var(--theme-color-white);
     background: var(--theme-blue);
