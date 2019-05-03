@@ -278,7 +278,7 @@ footer{
     width: 300px;
     margin: 12px auto;
     border-radius: 8px;
-    box-shadow: 0 0 2px 2px lightgray;
+    box-shadow: 0 0 0 1px lightgray;
     animation: scaleLessons 2000ms ease-in-out;
 }
 @keyframes scaleLessons {
